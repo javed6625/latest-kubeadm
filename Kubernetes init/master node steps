@@ -1,3 +1,5 @@
+cat /proc/meminfo  --for ram
+cat /proc/cpuinfo | grep processor ----for processor
 ### Disable SELINUX ####
 
 cat /etc/sysconfig/selinux | grep SELINUX=
